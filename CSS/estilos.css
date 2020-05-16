@@ -1,0 +1,43 @@
+body {
+    background-blend-mode: color;
+    background-color: rgba(238, 238, 238, 0.5);
+    background-image: url("https://i.pinimg.com/originals/4b/7d/01/4b7d011a94ad6accc1c5c04d54fc083c.jpg");
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  /**nome da classe**/
+  .menu{
+    background-color: white;
+  }
+  
+  /**seletor hierárquico**/
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  /**classe**/
+  a{
+    color: teal;
+    text-decoration: none;
+  }
+  
+  /**classe com pseudo elemento**/
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .site-title, .site-subtitle{
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+  }
